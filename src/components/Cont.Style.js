@@ -50,7 +50,7 @@ export const GifImage = styled.div`
   `;
 export const Buttonn = styled.button`
 
-  background-color: #0340a3; /* Green */
+  background-color: #0340a3;
   border: none;
   color: white;
   position : absolute;
