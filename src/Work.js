@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Zoomy from 'react-zoomy';
 import { ImgHover, WorkContainer, ImageLink, FlexRow, Title, StyledClickHereCircle, WorkContainerTwo } from './Work.style'
 import  { Container, SocialContainer } from 'theme/grid'
 import Fade from 'react-reveal/Fade';
@@ -45,21 +44,10 @@ class Work extends Component {
         <h1>01</h1>
       </Bounce>
       <div>
-
-        <Zoomy
-          imageUrl={require('./assets/twitter.png')}
-          renderThumbnail={({ showImage }) =>
-          <ImgHover onClick={showImage}>
+          <ImgHover>
             <img src={require('./assets/twitter_thumbnail.png')}
                 alt="twitter" />
           </ImgHover>
-        } scale={[1.1, 1.1]}
-          imageProps={{
-            style: {
-              width: '100vw',
-              height: 'auto'
-            }}}
-        />
         <FlexRow>
           <ImageLink href="https://www.google.com">
             Demo
@@ -98,22 +86,10 @@ class Work extends Component {
         }
         </WhenInView>
         <div>
-          <Zoomy
-            imageUrl={require('./assets/Bookshelf.jpg')}
-            renderThumbnail={({ showImage }) =>
-            <ImgHover onClick={showImage}>
+            <ImgHover>
               <img src={require('./assets/Bookshelf_thumbnail.png')}
                   alt="Bookshelf" />
             </ImgHover>
-          }
-            scale={[1.1, 1.1]}
-            imageProps={{
-              style: {
-                width: '100vw',
-                height: 'auto'
-              }
-            }}
-          />
           <FlexRow>
             <ImageLink href="https://www.google.com">
               Demo
@@ -138,22 +114,10 @@ class Work extends Component {
             <h1>03</h1>
           </Bounce>
           <div>
-            <Zoomy
-              imageUrl={require('./assets/meal.jpg')}
-              renderThumbnail={({ showImage }) =>
-              <ImgHover onClick={showImage}>
+              <ImgHover>
                 <img src={require('./assets/meal_thumbnail.png')}
                     alt="twitter" />
               </ImgHover>
-             }
-              scale={[1.1, 1.1]}
-              imageProps={{
-                style: {
-                  width: '100vw',
-                  height: 'auto'
-                }
-              }}
-            />
             <FlexRow>
               <ImageLink href="https://www.google.com">
                 Demo
@@ -189,22 +153,10 @@ class Work extends Component {
               want to read with React.js
           </p>
           <div>
-            <Zoomy
-              imageUrl={require('./assets/chat.png')}
-              renderThumbnail={({ showImage }) =>
-              <ImgHover onClick={showImage}>
+              <ImgHover >
                 <img src={require('./assets/chat_thumbnail.png')}
                     alt="twitter" />
               </ImgHover>
-             }
-              scale={[1.1, 1.1]}
-              imageProps={{
-                style: {
-                  width: '100vw',
-                  height: 'auto'
-                }
-              }}
-            />
             <FlexRow>
               <ImageLink href="https://www.google.com">
                 Demo
