@@ -128,12 +128,10 @@ class Work extends Component {
             </FlexRow>
           </div>
             <p>
-              • The goal was to create a bookshelf app that allows you to select
-                and categorize books you have read, currently reading and
-                want to read with React.js<br/>
-              • The goal was to create a bookshelf app that allows you to select
-                and categorize books you have read, currently reading and
-                want to read with React.js
+              • Developed integrated react-redux framework for tracking meal
+                weekly and recommend shopping list for that particular meal.<br/>
+              • The goal was to create a Meal tracking app that allows you to select
+                and categorize recipes and store ingredients in the shooping bucket.
             </p>
           </WorkContainer>
         </Fade>
@@ -145,12 +143,10 @@ class Work extends Component {
         <WorkContainer>
           <p>
           <br/ >
-            • The goal was to create a bookshelf app that allows you to select
-              and categorize books you have read, currently reading and
-              want to read with React.js<br/>
-            • The goal was to create a bookshelf app that allows you to select
-              and categorize books you have read, currently reading and
-              want to read with React.js
+            Technologies: Redux, React, AJAX, Socket IO, Node, Express, Webpack, Bootstrap, Postgresql<br />
+            •  Stack-chat was build to understand concepts of redux library and how to use both react and redux for a single application.<br />
+            •  Stack-chat is a real time chat application in which we can create a channel, post a message to a channel.<br />
+            •  A user can have multiple channels, from which we can send/receive message to/from different channels.
           </p>
           <div>
               <ImgHover >
