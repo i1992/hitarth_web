@@ -75,7 +75,7 @@ class About extends Component {
                     src={require("assets/barca.jpg")} alt="barca"
 
                     />
-                  <h1>Yes, You are Right my favorite sport is soccer. And My Fevorite player Andrés Iniesta.</h1>
+                  <h1>Yes, my favorite sport is soccer. And My Fevorite player Andrés Iniesta.</h1>
                 </Immg>
                 <WorkContainer>
                 <RightP
